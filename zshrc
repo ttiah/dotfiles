@@ -104,4 +104,4 @@ alias ll='ls -al --time-style=long-iso'
 alias vi='nvim'
 
 # for gopath
-#export GOPATH=/Users/dk/projects/golang-tnt
+#export GOPATH=$HOME/projects/golang-tnt
