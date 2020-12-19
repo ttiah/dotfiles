@@ -2,10 +2,10 @@
 "source ~/dotfiles/plugins.vim  
 
 " Settings
-syntax on		" Turn on syntax highlighting
-set number		" Show line numbers
+syntax on   		" Turn on syntax highlighting
+set number  		" Show line numbers
 set showmatch		" Show matching braces
-set mat=1		" Set the time to show matching braces
+set mat=1   		" Set the time to show matching braces
 set tabstop=4		" Use 4 space tabs
 set shiftwidth=4	" Use 4 space tabs
 set expandtab		" Use spaces instead of tabs

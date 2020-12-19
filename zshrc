@@ -101,7 +101,7 @@ source $ZSH/oh-my-zsh.sh
 alias ls='ls -F --color'
 alias la='ls -a'
 alias ll='ls -al --time-style=long-iso'
-alias vi='nvim'
+alias vi='nvim -u ~/.vimrc'
 
 # for gopath
 #export GOPATH=$HOME/projects/golang-tnt
