@@ -98,7 +98,11 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias ls='ls -F --color'
+if [ "$(uname)" == "Darwin" ]; then
+    alias ls='gls -F --color'
+else
+    alias ls='ls -F --color'
+fi
 alias la='ls -a'
 alias ll='ls -al --time-style=long-iso'
 alias vi='nvim -u ~/.vimrc'
